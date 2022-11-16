@@ -1,7 +1,9 @@
 package service;
 
 import continent.Continent;
-import country.Country;
+import enum_.Country;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -12,7 +14,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.util.ArrayList;
 @Service
-public class Serv {
+public class Serv implements Interface {
+
     public static ArrayList<Country> XML(String filepath) {
         ArrayList<Country> list = new ArrayList<>();
         try {
@@ -46,5 +49,13 @@ public class Serv {
             e.printStackTrace();
         }
         return list;
+    }
+    public ArrayList<Country> getCountryList() {
+        return XML("src/main/resources/xml/data.xml");
+    }
+
+    @Override
+    public ArrayList<String> XML() {
+        return null;
     }
 }

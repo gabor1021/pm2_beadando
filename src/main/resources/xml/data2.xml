@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<countries>
+    <n>
+        <name>Club</name>
+        <area>Hammer</area>
+        <capital>2500</capital>
+        <continent>1</continent>
+    </n>
+    <n>
+        <name>Club</name>
+        <area>Hammer</area>
+        <capital>2500</capital>
+        <continent>1</continent>
+    </n>
+    <n>
+        <name>Club</name>
+        <area>Hammer</area>
+        <capital>2500</capital>
+        <continent>1</continent>
+    </n>
+    <n>
+        <name>Club</name>
+        <area>Hammer</area>
+        <capital>2500</capital>
+        <continent>1</continent>
+    </n>
+</countries>

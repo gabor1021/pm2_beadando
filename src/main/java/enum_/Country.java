@@ -1,4 +1,4 @@
-package country;
+package enum_;
 
 import continent.Continent;
 
