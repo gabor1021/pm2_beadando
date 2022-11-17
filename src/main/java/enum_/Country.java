@@ -1,7 +1,5 @@
 package enum_;
 
-import continent.Continent;
-
 public class Country {
     public String name;
     public Integer area;
