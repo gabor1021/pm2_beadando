@@ -7,6 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 import pojo.Country;
 import service.Serv;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 @RestController
 public class View
 {
@@ -26,6 +31,12 @@ public class View
             view.addObject("capital",country.capital);
             view.addObject("continent",country.continent.toString());
         }catch(Exception e){
+            e.printStackTrace();
+        }try {
+            BufferedWriter write=new BufferedWriter(new FileWriter("kedvencek.txt"));
+            write.write(country.name+"\n");
+            write.close();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return view;
