@@ -18,10 +18,4 @@ public class Controller {
         return service.XML("src/main/resources/xml/data.xml");
     }
 
-    @RequestMapping(path = "anyad", method = RequestMethod.GET)
-    public ModelAndView view() {
-        ModelAndView view = new ModelAndView("anyad");
-        view.setViewName("home");
-        return view;
-    }
 }

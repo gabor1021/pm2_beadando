@@ -48,7 +48,16 @@ public class Serv implements Interface {
         }
         return list;
     }
-
+    @Override
+    public Country searchName(String name){
+        Country result = null;
+        for(Country x : XML("src/main/resources/xml/data.xml")){
+            if(x.name.equals(name)){
+                result=x;
+            }
+        }
+        return result;
+    }
     @Override
     public ArrayList<String> XML() {
         return null;
