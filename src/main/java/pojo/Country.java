@@ -1,4 +1,6 @@
-package enum_;
+package pojo;
+
+import enum_.Continent;
 
 public class Country {
     public String name;
@@ -46,4 +48,8 @@ public class Country {
         this.continent = continent;
     }
 
+    @Override
+    public String toString() {
+        return this.name + ", " + this.area + " km^2, " + this.capital + ", " + this.continent;
+    }
 }

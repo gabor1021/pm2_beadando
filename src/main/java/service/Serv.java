@@ -1,7 +1,7 @@
 package service;
 
 import enum_.Continent;
-import enum_.Country;
+import pojo.Country;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

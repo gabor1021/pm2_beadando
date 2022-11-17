@@ -1,11 +1,10 @@
 package controller;
 
-import enum_.Country;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
+import pojo.Country;
 import service.Serv;
 
 import java.util.ArrayList;
@@ -19,9 +18,10 @@ public class Controller {
         return service.XML("src/main/resources/xml/data.xml");
     }
 
-    @RequestMapping(path = "/", method = RequestMethod.GET)
+    @RequestMapping(path = "anyad", method = RequestMethod.GET)
     public ModelAndView view() {
-        ModelAndView view = new ModelAndView("index");
+        ModelAndView view = new ModelAndView("anyad");
+        view.setViewName("home");
         return view;
     }
 }

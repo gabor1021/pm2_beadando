@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <countries>
     <n>
-        <name>Club</name>
-        <area>Hammer</area>
-        <capital>2500</capital>
-        <continent>1</continent>
+        <name>Andorra</name>
+        <area>468</area>
+        <capital>Andorra la Vella</capital>
+        <continent>EU</continent>
     </n>
     <n>
-        <name>Club</name>
-        <area>Hammer</area>
-        <capital>2500</capital>
-        <continent>1</continent>
+        <name>Oroszország</name>
+        <area>17098240</area>
+        <capital>Moszkva</capital>
+        <continent>EU</continent>
     </n>
     <n>
-        <name>Club</name>
-        <area>Hammer</area>
-        <capital>2500</capital>
-        <continent>1</continent>
+        <name>Dél-Korea</name>
+        <area>100210</area>
+        <capital>Szöul</capital>
+        <continent>AS</continent>
     </n>
     <n>
-        <name>Club</name>
-        <area>Hammer</area>
-        <capital>2500</capital>
-        <continent>1</continent>
+        <name>Burkina Faso</name>
+        <area>274200</area>
+        <capital>Ouagadougou</capital>
+        <continent>AF</continent>
+    </n>
+    <n>
+        <name>Tonga</name>
+        <area>748</area>
+        <capital>Nukuʻalofa</capital>
+        <continent>OC</continent>
+    </n>
+    <n>
+        <name>Paraguay</name>
+        <area>406752</area>
+        <capital>Asunción</capital>
+        <continent>SA</continent>
+    </n>
+    <n>
+        <name>Mexikó</name>
+        <area>1972550</area>
+        <capital>Mexikóváros</capital>
+        <continent>NA</continent>
     </n>
 </countries>
